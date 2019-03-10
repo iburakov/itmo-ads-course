@@ -106,4 +106,4 @@ venv.bak/
 .idea
 input.txt
 output.txt
-.vs
+vs_cpp_sln
