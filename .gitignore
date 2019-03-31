@@ -107,3 +107,4 @@ venv.bak/
 input.txt
 output.txt
 vs_cpp_sln
+~$*.docm
