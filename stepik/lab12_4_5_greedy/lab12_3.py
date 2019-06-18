@@ -1,0 +1,6 @@
+n = int(input())
+k = int((((8 * n + 1) ** 0.5) - 1) / 2)
+print(k)
+seq_nums = list(range(1, k))
+seq_nums_sum = int((k - 1) / 2 * k)
+print(" ".join(map(str, seq_nums + [n - seq_nums_sum])))
